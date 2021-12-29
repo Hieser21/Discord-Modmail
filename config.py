@@ -24,7 +24,7 @@ ModMailCatagoryID = 00000000000
 
 # ModMailCannotReplyIfNoTier : If set to True, users with no support tier rank cannot reply to modmail. If False. the optional Value, ModmailNoTierLabel, will be set to the label if somebody with no tier rank replies. Remember to uncomment it if you are using it.
 
-ModMailCannotReplyIfNoTier = False
+ModMailCannotReplyIfNoTier = "False"
 #ModmailNoTierLabel = "Unranked"
 
 # Users will be labelled based on their topmost role.
