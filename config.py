@@ -8,9 +8,9 @@
 # StaffGuildID : The staff Guild’s ID For mod mail to be used in. This will be the server where all Modmail Threading and Logging will occur.
 # ModMailCatagoryID : The Catagory ID of the Catagory Modmail shohld use.
 
-MainGuildID = 844755799200104459
-StaffGuildID = 904307675079245834
-ModMailCatagoryID = 925579274692468806
+MainGuildID = 00000000000
+StaffGuildID = 00000000000
+ModMailCatagoryID = 00000000000
 
 # ModMail Main Configuration
 
@@ -24,15 +24,15 @@ ModMailCatagoryID = 925579274692468806
 
 # ModMailCannotReplyIfNoTier : If set to True, users with no support tier rank cannot reply to modmail. If False. the optional Value, ModmailNoTierLabel, will be set to the label if somebody with no tier rank replies. Remember to uncomment it if you are using it.
 
-ModMailCannotReplyIfNoTier = False
+ModMailCannotReplyIfNoTier = "False"
 #ModmailNoTierLabel = "Unranked"
 
 # Users will be labelled based on their topmost role.
 
-PossibleTopicOptions = ["Staff","Bot","Report"]
+PossibleTopicOptions = ["Staff","Bot"]
 Tier1SupportDiscordRoleID = 904309124920119296
-Tier2SupportDiscordRoleID = 924162915563602001
-Tier3SupportDiscordRoleID = 925791190924808283
+Tier2SupportDiscordRoleID = 00000
+Tier3SupportDiscordRoleID = 00000
 
 # DiscordRoleRequiredToCloseThreads : The RoleID of the role required to close threads. Leave as None to default to Tier 1 Support
 
@@ -40,7 +40,7 @@ DiscordRoleRequiredToCloseThreads = None
 
 # DiscordModmailLogChannel : The channel where the bot should send log to. Put 0 to disable, Put 1 to make the bot automatically create one.
 
-DiscordModmailLogChannel = 1
+DiscordModmailLogChannel = 0
 
 # BotToken : The bot token for the Oauth2 App.
 # BotPlayingStatus : The bot playing status as shown in discord.
@@ -54,7 +54,7 @@ BotToken = "ABCDEFG"
 
 LogCommands = True
 BotBoundToGuiids = True
-BotDMOwnerOnRestart = True
+BotDMOwnerOnRestart = False
 BotAutoReconnect = True
 
 #End of config.
