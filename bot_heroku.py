@@ -122,7 +122,6 @@ async def help(ctx):
       help1.set_author(name='IngeniousCoder\'s Modmail Bot',icon_url="https://cdn.discordapp.com/attachments/388917080570986526/490075804496297995/8eebd924aeb72f681f0bc7c94226883e.png")
       help1.add_field(name="Help me!",value="Donate to me [here](https://patreon.com/eltontay11) or [Star my repository!](https://github.com/IngeniousCoder/Discord-Modmail)",inline=False)
       help1.add_field(name="{}uptime".format(prefix), value="Shows bot uptime", inline=False)
-      help1.add_field(name="{}uptime".format(prefix), value="Shows bot uptime", inline=False)
       help1.add_field(name="{}help".format(prefix), inline=False, value="Shows the help message.")
       help1.add_field(name="{}info".format(prefix), inline=False, value="Shows bot info.")
       help1.add_field(name="**{}reply <msg>**".format(prefix), inline=False, value="Reply to a message thread. `Alias : r`")
@@ -285,7 +284,7 @@ async def CreateThread(user):
         await chn.send(f"User has {log} previous logs! Do `{default_config.get('BotPrefix')}logs {str(user.id)}` to view them!")
     return ModMailThread(channel=chn,user=user)
 
-async def ReplyTo(thread2,message,mod=True):
+async def ReplyTo(thread2,message,mod=False):
     """Reply to a thread. thread should be a ModMailThread Object.
        Returns 200 if success, 404 if fail. 403 if DM Error.
        mod = True specifies that it is the Moderator Replying to the thread."""
