@@ -15,6 +15,8 @@ ModMailCatagoryID = 000000000000000000
 # DiscordModmailLogChannel : The log channel for modmail threads.
 DiscordModmailLogChannel = 000000000000000000
 
+ModMailCannotReplyIfNoTier = False
+
 # BotToken : The bot token for the Oauth2 App.
 # BotPlayingStatus : The bot playing status as shown in discord.
 # BotPrefix : The bot prefix.
