@@ -59,5 +59,5 @@ BotAutoReconnect = True
 
 #End of config.
 
-CONFIG_VER= 1
+CONFIG_VER = 1
 
