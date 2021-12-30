@@ -58,3 +58,6 @@ BotDMOwnerOnRestart = False
 BotAutoReconnect = True
 
 #End of config.
+
+CONFIG_VER= 1
+
