@@ -30,7 +30,7 @@ ModMailCannotReplyIfNoTier = False
 # Users will be labelled based on their topmost role.
 
 PossibleTopicOptions = ["Staff","Bot"]
-Tier1SupportDiscordRoleID = 904309124920119296
+Tier1SupportDiscordRoleID = 00000
 Tier2SupportDiscordRoleID = 00000
 Tier3SupportDiscordRoleID = 00000
 
